@@ -12,7 +12,7 @@ pipeline {
         // Primera ejecucion: false para validar sin credenciales de escritura.
         // Para guardar los cambios EN GITHUB cambie a 'true' y agregue
         // la credencial github-docs-token (usuario + token) en Jenkins.
-        PUSH_DOCS = 'false'
+        PUSH_DOCS = 'true'
         TARGET_BRANCH = 'main'
         // Si el correo saliente de Jenkins esta configurado, escriba aqui su email.
         NOTIFY_EMAIL = ''
